@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="top-header">
+      <div class="nav">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-md-6 col-lg-4">
+              <div class="logo-wrap justify-content-center justify-content-lg-start text-uppercase">
+                <div class="logo-left">
+                  <img class="logo" src="img/logo.svg" alt="Московская фабрика мебели" />
+                  <div class="logo-text">Швейный цех</div>
+                </div>
+                <div class="logo-text-right">Московская<br> Фабрика<br> Мебели</div>
+              </div>
+            </div>
+            <div class="col-md-6 offset-lg-2 col-lg-2 align-self-md-center">
+              <div class="mail ms-auto me-auto">
+                <a href="mailto:zakaz@mfm-moscow.ru">zakaz@mfm-moscow.ru</a>
+              </div>
+            </div>
+            <div class="col-12 offset-lg-1 col-lg-3 align-self-lg-center">
+              <div class="phone me-lg-0 ms-auto me-auto">
+                <a href="tel:84994724326">8 (499) 472-4326</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-header">
+      <div class="container">
+        <nav class="navbar sticky navbar-expand-lg navbar-dark" aria-label="Twelfth navbar example">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
+              aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-around" id="navbarsExample10"
+              style="width:  inherit;">
+              <ul class="navbar-nav justify-content-md-around text-uppercase" style="width:  inherit;">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Производство</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Как мы работаем</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Узнать стоимость</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Сотрудничество</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Московская фабрика мебели</h1>
+    <section class="offers">
+      <h2 class="visually-hidden">Наши предложения</h2>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="true" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-current="true"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-current="true"
+            aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/header-img.jpg" alt="первый слайд">
+            <div class="carousel-caption">
+              <h5>Нанесение логотипов и изображений при помощи компьютерной вышивки на любые ткани</h5>
+              <button class="offers__btn btn">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/header-img.jpg" class="d-block w-100" alt="второй слайд">
+            <div class="carousel-caption">
+              <h5>Нанесение логотипов и изображений при помощи компьютерной вышивки на любые ткани</h5>
+              <button class="offers__btn btn">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/header-img.jpg" alt="первый слайд" class="d-block w-100">
+            <div class="carousel-caption">
+              <h5>Нанесение логотипов и изображений при помощи компьютерной вышивки на любые ткани</h5>
+              <button class="offers__btn btn">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/header-img.jpg" alt="первый слайд" class="d-block w-100">
+            <div class="carousel-caption">
+              <h5>Нанесение логотипов и изображений при помощи компьютерной вышивки на любые ткани</h5>
+              <button class="offers__btn btn">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/header-img.jpg" alt="первый слайд" class="d-block w-100">
+            <div class="carousel-caption">
+              <h5>Нанесение логотипов и изображений при помощи компьютерной вышивки на любые ткани</h5>
+              <button class="offers__btn btn">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="advantage">
+      <div class="container">
+        <h2 class="advantage__title">Компьютерная вышивка по<br> индивидуальному дизайну</h2>
+        <div class="row gy-4">
+          <div class="col-xl-6">
+            <a href="#" class="advantage__video"></a>
+          </div>
+          <div class="container-xl col-xl-6">
+            <p class="advantage__text">«Московская Фабрика Мебели» (МФМ) предоставляет услуги по нанесению логотипов и
+              других изображений при помощи компьютерной вышивки на любые ткани.
+            </p>
+            <p class="advantage__text">
+              Вышивка – это уникальный способ сделать ваше изделие индивидуальным, узнаваемым. С помощью компьютерной
+              вышивки мы можем создавать любые по сложности рисунки. Мы используем современное японское оборудование.
+            </p>
+            <div class="advantage__top-num text-center">
+              <div class="advantage__number">300 x 50 см</div>
+              <span class="advantage__insription">размер наносимого изображения</span>
+            </div>
+            <div class="advantage__bottom-num row">
+              <div class="col-6 advantage__left-num">
+                <div class="row">
+                  <div class="advantage__number col-6 text-end pe-0">1000</div>
+                  <div class="col-6 align-self-center"><span class="advantage__insription">стежков в минуту</span></div>
+                </div>
+              </div>
+              <div class="col-6 advantage__right-num">
+                <div class="row">
+                  <div class="advantage__number col-6 text-end pe-0">500</div>
+                  <div class="col-6"><span class="advantage__insription">экземпляров за<br> рабочую смену</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="advantages row pb-5 pt-5">
+          <li class="advantages__item col text-center">
+            <div class="advantages__circle advantages__circle--1 mx-auto"></div>
+            <div class="advantages__text">Долговечность</div>
+          </li>
+          <li class="advantages__item col text-center">
+            <div class="advantages__circle advantages__circle--2 mx-auto"></div>
+            <div class="advantages__text">Качественные материалы</div>
+          </li>
+          <li class="advantages__item col text-center">
+            <div class="advantages__circle advantages__circle--3 mx-auto"></div>
+            <div class="advantages__text">Современное оборудование</div>
+          </li>
+          <li class="advantages-item col text-center">
+            <div class="advantages__circle advantages__circle--4 mx-auto"></div>
+            <div class="advantages__text">Индивидуальный<br> пошив</div>
+          </li>
+          <li class="advantages__item col text-center">
+            <div class="advantages__circle advantages__circle--5 mx-auto"></div>
+            <div class="advantages__text">10 лет на рынке</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="order">
+      <div class="container">
+        <h2 class="order__title">
+          Заказать вышивку
+        </h2>
+        <p class="order__text order__text--wrap">
+          Вышивка – это уникальный способ сделать ваше изделие индивидуальным, узнаваемым. С помощью компьютерной
+          вышивки мы можем создавать любые по сложности рисунки.
+        </p>
+        <div class="demand order__wrap">
+          <div class="demand__name mb-3">
+            <input type="text" class="form-control mx-auto" id="formGroupExampleInput" placeholder="Введите ваше имя">
+          </div>
+          <div class="demand__phone mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Введите ваш телефон">
+          </div>
+          <div class="demand__check form-check text-start">
+            <input class="demand__check-input form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="demand__check-label form-check-label" for="flexCheckChecked">
+              Даю согласие,на обработку персональных данных
+            </label>
+          </div>
+          <button class="demand__btn btn" type="submit">
+            Оставить заявку
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <h2 class="products__title">
+          Наше производство
+        </h2>
+        <div class="slider products__slider">
+          <div class="slider-item products__slider-item">
+            <img src="img/img01.png" width="167px" height="140px" alt="фк-локомотив">
+          </div>
+          <div class="slider-item products__slider-item">
+            <img src="img/img02.png" width="167px" height="140px" alt="фк-оренбург">
+          </div>
+
+          <div class="slider-item products__slider-item">
+            <img src="img/img03.png" width="167px" height="140px" alt="герб">
+          </div>
+
+          <div class="slider-item products__slider-item">
+            <img src="img/img04.png" width="167px" height="140px" alt="UNP">
+          </div>
+
+          <div class="slider-item products__slider-item">
+            <img src="img/img05.png" width="167px" height="140px" alt="газпром">
+          </div>
+
+          <div class="slider-item products__slider-item">
+            <img src="img/img06.png" width="167px" height="140px" alt="tajima">
+          </div>
+
+          <div class="slider-item products__slider-item">
+            <img src="img/img06.png" width="167px" height="140px" alt="tajima">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title">Как мы работаем</h2>
+        <div class="work__cards row justify-content-center">
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon06.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">Чтобы сделать заказ, необходимо связаться с менеджером.</p>
+                  <p class="card-text">
+                    <a class="social__link social__link--whatsapp" href="https://www.whatsapp.com/">
+                      <span class="visually-hidden">Мы в Ватсапп</span>
+                    </a>
+                    <a class="social__link social__link--viber" href="https://www.viber.com/ru/">
+                      <span class="visually-hidden">
+                        Мы в Вайбер
+                      </span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon07.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">Прислать изображение с указанием размера вышивки, вида ткани и нужного количества
+                    экземпляров.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon08.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">Менеджеры в кратчайшие сроки рассчитают стоимость заказа. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon09.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">Дизайнеры разработают программу для вышивальной машины и отошьют контрольный
+                    образец.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon10.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">После согласования качества, стоимости и других нюансов, заказ отправляется в
+                    производство. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="row d-flex h-100">
+              <div class="col-md-4 align-self-center text-center">
+                <img src="img/icon11.png" alt="иконка менеджера">
+              </div>
+              <div class="col-md-8 align-self-center">
+                <div class="card-body">
+                  <p class="card-text">Каждый экземпляр проходит строгий контроль, после чего заказчик получает
+                    качественно вышитые изделия и радуется результату.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work__btn-wrap text-center">
+          <button class="work__btn btn" type="submit">
+            Оставить заявку
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-7 order-lg-1">
+            <h2 class="price__title">От чего зависит стоимость вышивки?</h2>
+            <p class="price__text">Цена – важный аспект любого изделия. Стоимость вышивки складывается из стоимости
+              трудозатрат на изготовление и стоимости использованных материалов. Чем сложнее изображение, тем сложнее
+              изготовить программу и трудозатратнее производство. Трудоемкость так же зависит от количества стежков,
+              полученных при создании программы для вышивального автомата и количества экземпляров. Поэтому стоимость
+              каждого заказа рассчитывается индивидуально. Для постоянных заказчиков действует гибкая система скидок.
+            </p>
+          </div>
+          <div class="col-lg-5 order-lg-0">
+            <div class="demand order__wrap order__wrap--price">
+              <div class="demand__name mb-3">
+                <input type="text" class="form-control price__name-input" id="formGroupExampleInput"
+                  placeholder="Введите ваше имя">
+              </div>
+              <div class="demand__phone mb-3">
+                <input type="text" class="form-control price__phone-input" id="formGroupExampleInput2"
+                  placeholder="Введите ваш телефон">
+              </div>
+              <div class="demand__check form-check text-start">
+                <input class="demand__check-input form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="demand__check-label form-check-label" for="flexCheckChecked">
+                  Даю согласие,на обработку персональных данных
+                </label>
+              </div>
+              <button class="demand__btn btn price__btn" type="submit">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partner">
+      <div class="container">
+        <h2 class="partner__title">Партнёры, которые нам доверяют</h2>
+        <p class="partner__text text-center">«Московская Фабрика Мебели» (МФМ) уже изготовила и нанесла логотипы для:
+        </p>
+        <div class="slider partner__slider">
+          <div class="slider-item d-flex flex-column">
+            <img src="img/metro.png" width="100px" height="121px" alt="метро">
+            <p class="partner__slider-text">Московский метрополитен</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/express.png" width="117px" height="125px" alt="русский экспресс">
+            <p class="partner__slider-text">Рускеальский экспресс</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/yandex-taxi.png" width="200px" height="94px" alt="яндекс такси">
+            <p class="partner__slider-text">Яндекс Такси</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/tigarbo.png" width="177px" height="100px" alt="tigarbo">
+            <p class="partner__slider-text">Tigarbo</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/loko.png" width="100px" height="121px" alt="фк-локомотив">
+            <p class="partner__slider-text">ФК Локомотив</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/gazprom.png" width="177px" height="100px" alt="газпром">
+            <p class="partner__slider-text">Газпром</p>
+          </div>
+
+          <div class="slider-item d-flex flex-column">
+            <img src="img/fk-orenburg.png" width="100px" height="100px" alt="фк-оренбург">
+            <p class="partner__slider-text">ФК Оренбург</p>
+          </div>
+        </div>
+
+        <p class="partner__text text-center mx-auto partner__text--bottom">Благодаря многофункциональности швейного цеха
+          мы можем
+          предложить вам
+          услуги по пошиву, раскрою, разработки лекал для любых видов ткани и материалов.</p>
+        <h3 class="partner__title-bottom text-center">Предлагаем сотрудничество</h3>
+
+        <a class="top-button" href="#" title="Вернуться к началу страницы" class="topNubex">
+          <img src="img/top.png" alt="кнопка наверх">
+        </a>
+        <div class="row gy-3 gx-3">
+          <div class="col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Госучереждениям</div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Школам, ВУЗам, СУЗам</div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Танцевальным коллективам</div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Ателье</div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Гостиницам, ресторанам</div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="partner__item"> Охранным организациям</div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="partner__item">Спортивным клубам</div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <div class="partner__item"> Рекламным агентствам</div>
+          </div>
+          <div class="col-12 text-center">
+            <div class="partner__item">Швейным организациям, занимающимся пошивом спецодежды</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="contact__title text-start">
+                  Наши контакты
+                </h2>
+              </div>
+              <div class="col-12">
+                <div class="contact__item contact__address ms-auto me-auto">
+                  <p>г. Рязань, Южный промузел, д. 6., стр. 4.</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="phone contact__item contact__phone">
+                  <a href="tel:84994724326">8 (499) 472-4326</a>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mail contact__item contact__mail">
+                  <a href="mailto:zakaz@mfm-moscow.ru">zakaz@mfm-moscow.ru</a>
+                </div>
+              </div>
+              <div class="col-12">
+                <a class="social__link social__link--vk ms-2" href="https://vk.com/">
+                  <span class="visually-hidden">Мы в ВК</span>
+                </a>
+                <a class="social__link social__link--instagram ms-2" href="https://www.instagram.com/">
+                  <span class="visually-hidden">Мы в Инстаграмм</span>
+                </a>
+              </div>
+              <div class="col-12">
+                <p class="contact__web">
+                  Основной сайта Московской фабрики мебели
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-7  be-relative">
+            <div class="hero">
+              <div class="map">
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa26e6b63c0a2a0d8b93f0a9b60b133ea4063643ee99ef41698f5a4575940cd5a&amp;source=constructor"
+                  frameborder="0" width="100%" height="100%" allowfullscreen
+                  title="Офис компании по адресу г. Рязань, Южный промузел, д. 6., стр. 4."></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="top-header">
+        <div class="nav">
+          <div class="container">
+            <div class="row gy-4 text-center">
+              <div class="col-md-6 col-lg-3">
+                <div class="logo-wrap justify-content-center justify-content-lg-start text-uppercase logo-wrap--footer">
+                  <div class="logo-left">
+                    <img class="logo" src="img/footer-icon.svg" alt="Московская фабрика мебели" />
+                    <div class="logo-text">Швейный цех</div>
+                  </div>
+                  <div class="logo-text-right">Московская<br> Фабрика<br> Мебели</div>
+                </div>
+              </div>
+              <div class="col-md-6 offset-lg-1 col-lg-3 align-self-md-center">
+                <button class="offers__btn btn btn__footer">
+                  Написать нам
+                </button>
+              </div>
+              <div class="col-md-6 offset-lg-1 col-lg-1 align-self-lg-center">
+                <img src="img/stat.png" alt="статистика сайта">
+              </div>
+              <div class="col-md-6 col-lg-3 align-self-lg-center">
+                <div class="footer__copyright me-lg-0 ms-auto me-auto">
+                  Создание сайта — <br>
+                  <u>студия "Галактика"</u>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
